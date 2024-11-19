@@ -12,13 +12,15 @@ youtube = build("youtube", "v3", developerKey=API_KEY)
 
 def get_video_statistics(video_id: str):
     try:
-        # Lấy thông tin video
+        if not video_id.strip():
+            logger.warning("Video ID is empty or invalid.")
+            return {"error": "Invalid video ID."}
+
         request = youtube.videos().list(
             part="snippet,statistics",
             id=video_id
         )
         response = request.execute()
-
         if response["items"]:
             video = response["items"][0]
             title = video["snippet"]["title"]
@@ -27,8 +29,7 @@ def get_video_statistics(video_id: str):
             view_count = video["statistics"]["viewCount"]
             like_count = video["statistics"].get("likeCount", "0")
             comment_count = video["statistics"].get("commentCount", "0")
-
-            # Trả về thông tin video và các chỉ số
+            logger.info("Get static video successful")
             return {
                 "title": title,
                 "description": description,
@@ -38,8 +39,9 @@ def get_video_statistics(video_id: str):
                 "comment_count": comment_count,
             }
         else:
+            logger.warning("Has no information about the video")
             return None
 
-    except HttpError as err:
-        logger.error(f"An error occurred: {err}")
+    except HttpError as e:
+        logger.error(f"An error occurred when get static video: {e}")
         return None

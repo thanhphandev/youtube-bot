@@ -6,7 +6,7 @@ from utils.logger import setup_logger
 logger = setup_logger(__name__)
 
 def handle_exit(signum, frame):
-    print("\nCtrl+C detected. Exiting program...")
+    print("\nExiting program...")
     sys.exit(0)
 
 def main():

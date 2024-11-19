@@ -1,9 +1,9 @@
-import re
 from telegram import Update
 from telegram.constants import ChatAction
 from telegram.ext import ContextTypes
 from common.validator import Validator
 from services.analyze_video import get_video_statistics
+from utils.get_id_video import get_id_video
 from utils.logger import setup_logger
 
 logger = setup_logger(__name__)
@@ -17,17 +17,20 @@ async def analyze_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
 
     video_url = context.args[0]
+    video_id = get_id_video(video_url)
+
     if(not Validator.is_valid_youtube_url(video_url)):
         await update.message.reply_text("URL không hợp lệ! Hãy gửi URL của video YouTube.")
         return
+    
     await update.message.chat.send_action(action=ChatAction.TYPING)
-    match = re.search(r'(?:v=|\/)([0-9A-Za-z_-]{11})', video_url)
-    video_id = match.group(1)
     logger.info(f"Analyzing video: {video_id}")
     static_video = get_video_statistics(video_id)
+    
     if not static_video:
         await update.message.reply_text("Không thể lấy thông tin video.")
         return
+    
     title = static_video["title"]
     description = static_video["description"]
     tags = static_video["tags"]
