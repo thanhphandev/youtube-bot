@@ -1,6 +1,5 @@
 from groq import Groq
 from configs.config import Config
-from utils.logger import setup_logger
 
 
 model_name = "llama3-70b-8192"
@@ -18,9 +17,9 @@ def summarize_video_content(content: str) -> str:
         response = client.chat.completions.create(
             messages=[
                 {"role": "system", "content": ("Bạn là một nhà tóm tắt nội dung video. "
-                                                "Hãy tóm tắt nội dung video sau đây thành một bản tóm tắt ngắn gọn và chính xác. "
-                                                "Tập trung vào việc tóm tắt video không nói thêm thông tin gì:"
-                                                "Chỉ phản hồi bằng tiếng Việt.")},
+                                                "Hãy tóm tắt nội dung video sau đây thành một bản tóm tắt chính xác và đầy đủ "
+                                                "Luôn luôn phản hồi bằng tiếng Việt."
+                                                )},
                 {"role": "user", "content": prompt},
             ],
             temperature=0.5,

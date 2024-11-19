@@ -33,12 +33,11 @@ class TelegramBot:
             "Xin chào, tôi là Youtube AI Bot được tạo bởi Phan Văn Thành. Sử dụng /help để hiển thị các chức năng khả dụng."
         )
 
-
     async def _handle_message(self, update: Update, context: ContextTypes.DEFAULT_TYPE):
         """Handler for general text messages."""
         await update.message.reply_text("I didn't understand that. Use /help to see available commands.")
 
     def run(self):
         """Run the bot."""
-        logger.info("Bot is starting...")
+        logger.info("Bot is starting...Press Ctrl + C to stop.")
         self.app.run_polling()

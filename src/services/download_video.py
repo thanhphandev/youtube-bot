@@ -1,6 +1,5 @@
 import os
 import yt_dlp
-import hashlib
 from utils.logger import setup_logger
 
 
@@ -13,10 +12,9 @@ def download_youtube_video(video_url: str, resolution: str = "720p") -> str:
     try:
 
         os.makedirs(TEMP_DIR, exist_ok=True)
-        
         ydl_opts = {
             'format': f'bestvideo[height<={resolution.rstrip("p")}]' + '+bestaudio/best',
-            'outtmpl': os.path.join(TEMP_DIR, '%(id)s.%(ext)s'),  # Use video ID for unique file naming
+            'outtmpl': os.path.join(TEMP_DIR, '%(id)s.%(ext)s'),
             'merge_output_format': 'mp4',  # Specify output format for merged video (mp4)
         }
 
@@ -27,10 +25,7 @@ def download_youtube_video(video_url: str, resolution: str = "720p") -> str:
             file_extension = info_dict.get('ext', 'mp4')
             output_path = os.path.join(TEMP_DIR, f"{info_dict['id']}.{file_extension}")
             return output_path
-
-    except FileNotFoundError as e:
-        logger.error(f"File not found for URL: {video_url}")
-        raise FileNotFoundError(f"File not found for URL: {video_url}") from e
+        
     except Exception as e:
         logger.error(f"Error downloading video: {str(e)}")
         raise Exception(f"Error downloading video: {str(e)}") from e
