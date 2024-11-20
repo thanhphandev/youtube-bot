@@ -26,6 +26,7 @@ def get_video_statistics(video_id: str):
             title = video["snippet"]["title"]
             description = video["snippet"]["description"]
             tags = video["snippet"].get("tags", [])
+            upload_date = video["snippet"]["publishedAt"]
             view_count = video["statistics"]["viewCount"]
             like_count = video["statistics"].get("likeCount", "0")
             comment_count = video["statistics"].get("commentCount", "0")
@@ -37,6 +38,7 @@ def get_video_statistics(video_id: str):
                 "view_count": view_count,
                 "like_count": like_count,
                 "comment_count": comment_count,
+                "upload_date": upload_date
             }
         else:
             logger.warning("Has no information about the video")

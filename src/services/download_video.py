@@ -10,7 +10,7 @@ TEMP_DIR = "downloads"
 
 def download_youtube_video(video_url: str, resolution: str = "720p") -> str:
     try:
-
+        
         os.makedirs(TEMP_DIR, exist_ok=True)
         ydl_opts = {
             'format': f'bestvideo[height<={resolution.rstrip("p")}]' + '+bestaudio/best',

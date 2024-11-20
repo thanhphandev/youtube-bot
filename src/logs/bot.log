@@ -41,3 +41,95 @@
 2024-11-19 22:34:50,944 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
 2024-11-19 23:16:21,221 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\YQMvd2zpw7U_hqdefault.jpg
 2024-11-19 23:16:37,029 - handlers.download_handler - INFO - Video sent successfully: https://youtu.be/YQMvd2zpw7U?si=crYiSdBjxwNJVyL_
+2024-11-20 12:33:38,890 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 12:37:08,522 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 12:38:05,023 - handlers.analyze_handler - INFO - Analyzing video: YQMvd2zpw7U
+2024-11-20 12:38:07,347 - services.analyze_video - INFO - Get static video successful
+2024-11-20 12:39:08,737 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 12:39:24,652 - handlers.analyze_handler - INFO - Analyzing video: YQMvd2zpw7U
+2024-11-20 12:39:26,986 - services.analyze_video - INFO - Get static video successful
+2024-11-20 12:46:48,463 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 12:47:20,361 - handlers.analyze_handler - INFO - Analyzing video: YQMvd2zpw7U
+2024-11-20 12:47:22,521 - services.analyze_video - INFO - Get static video successful
+2024-11-20 12:49:21,652 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 12:50:25,218 - handlers.analyze_handler - INFO - Analyzing video: YQMvd2zpw7U
+2024-11-20 12:50:27,149 - services.analyze_video - INFO - Get static video successful
+2024-11-20 12:51:51,386 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 12:52:08,587 - handlers.analyze_handler - INFO - Analyzing video: YQMvd2zpw7U
+2024-11-20 12:52:11,407 - services.analyze_video - INFO - Get static video successful
+2024-11-20 12:53:33,438 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 12:53:43,643 - handlers.analyze_handler - INFO - Analyzing video: YQMvd2zpw7U
+2024-11-20 12:53:45,709 - services.analyze_video - INFO - Get static video successful
+2024-11-20 12:55:50,743 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 12:56:07,001 - handlers.analyze_handler - INFO - Analyzing video: YQMvd2zpw7U
+2024-11-20 12:56:08,959 - services.analyze_video - INFO - Get static video successful
+2024-11-20 12:57:00,738 - handlers.analyze_handler - INFO - Analyzing video: oc_kC7xdBBI
+2024-11-20 12:57:00,845 - services.analyze_video - INFO - Get static video successful
+2024-11-20 12:57:36,864 - handlers.analyze_handler - INFO - Analyzing video: pKNivLY8W7M
+2024-11-20 12:57:36,978 - services.analyze_video - INFO - Get static video successful
+2024-11-20 12:58:10,767 - handlers.analyze_handler - INFO - Analyzing video: IHAl6auTY0o
+2024-11-20 12:58:10,877 - services.analyze_video - INFO - Get static video successful
+2024-11-20 13:03:05,372 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 13:05:25,568 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 13:05:57,889 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 13:06:14,959 - handlers.analyze_handler - INFO - Analyzing video: IHAl6auTY0o
+2024-11-20 13:06:17,223 - services.analyze_video - INFO - Get static video successful
+2024-11-20 13:06:56,393 - handlers.analyze_handler - INFO - Analyzing video: y-ghdgAoUzI
+2024-11-20 13:06:56,507 - services.analyze_video - INFO - Get static video successful
+2024-11-20 13:07:46,283 - handlers.analyze_handler - INFO - Analyzing video: OxxYoutOXUw
+2024-11-20 13:07:46,399 - services.analyze_video - INFO - Get static video successful
+2024-11-20 13:26:21,949 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 13:27:01,467 - handlers.analyze_handler - INFO - Comments: [{'text': 'Law not only overpower both Doflamingo and Kaido, but also Big Mom too.', 'likes': 0, 'published_at': '2024-11-18T14:20:49Z'}]
+2024-11-20 13:27:02,353 - handlers.analyze_handler - INFO - Analyzing video: IHAl6auTY0o
+2024-11-20 13:27:05,284 - services.analyze_video - INFO - Get static video successful
+2024-11-20 13:53:17,455 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 20:38:38,565 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 20:39:13,416 - utils.get_thumbnail - WARNING - Failed to fetch thumbnail: https://img.youtube.com/vi/https://youtu.be/IHAl6auTY0o?si=6VOGlPvVzwVTpIHE/maxresdefault.jpg (HTTP 404)
+2024-11-20 20:39:13,420 - handlers.thumbnail_handler - ERROR - Error when get thumbnail: expected str, bytes or os.PathLike object, not NoneType
+2024-11-20 20:45:15,644 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 20:46:01,714 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\IHAl6auTY0o_hqdefault.jpg
+2024-11-20 20:47:28,546 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 20:47:49,323 - handlers.thumbnail_handler - ERROR - Error when get thumbnail: _ChatBase.send_animation() got an unexpected keyword argument 'action'
+2024-11-20 20:49:33,085 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 20:49:48,779 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\IHAl6auTY0o_hqdefault.jpg
+2024-11-20 20:51:47,661 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 20:52:07,690 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\IHAl6auTY0o_hqdefault.jpg
+2024-11-20 20:53:30,146 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\IHAl6auTY0o_hqdefault.jpg
+2024-11-20 20:53:30,149 - handlers.download_handler - ERROR - Error downloading video: 'NoneType' object has no attribute 'chat'
+2024-11-20 20:56:49,082 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 20:57:42,028 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\IHAl6auTY0o_hqdefault.jpg
+2024-11-20 20:58:04,334 - handlers.download_handler - ERROR - Error downloading video: Timed out
+2024-11-20 20:58:55,743 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 20:59:24,381 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\IHAl6auTY0o_hqdefault.jpg
+2024-11-20 20:59:45,314 - handlers.download_handler - ERROR - Error downloading video: Timed out
+2024-11-20 21:02:39,661 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 21:04:08,378 - handlers.download_handler - ERROR - Error downloading video: Timed out
+2024-11-20 21:14:15,054 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 21:15:09,468 - handlers.download_handler - ERROR - Error downloading video: Timed out
+2024-11-20 21:31:48,840 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 21:32:24,221 - handlers.download_handler - ERROR - Error downloading video: 'Message' object has no attribute 'reply'
+2024-11-20 21:34:22,417 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 21:35:01,546 - handlers.download_handler - INFO - Video sent successfully: https://youtu.be/IHAl6auTY0o?si=6VOGlPvVzwVTpIHE
+2024-11-20 21:36:19,958 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 21:37:04,606 - handlers.download_handler - ERROR - Error downloading video: Timed out
+2024-11-20 21:39:16,431 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 21:41:49,895 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 21:46:37,598 - handlers.download_handler - ERROR - Error downloading video: Timed out
+2024-11-20 21:48:29,940 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 21:48:59,348 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 21:49:24,498 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\iq5DEP8M5DQ_hqdefault.jpg
+2024-11-20 21:49:30,463 - handlers.download_handler - ERROR - Error downloading video: Timed out
+2024-11-20 21:51:42,538 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 21:52:30,576 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\a-mZR03AFLI_hqdefault.jpg
+2024-11-20 21:52:38,044 - handlers.download_handler - INFO - Video sent successfully: https://youtu.be/a-mZR03AFLI?si=xBxXXyD_wVzX4oUy
+2024-11-20 21:53:33,566 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\a-mZR03AFLI_hqdefault.jpg
+2024-11-20 21:55:29,324 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 21:56:08,938 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\a-mZR03AFLI_hqdefault.jpg
+2024-11-20 21:56:15,717 - handlers.download_handler - INFO - Video sent successfully: https://youtu.be/a-mZR03AFLI?si=xBxXXyD_wVzX4oUy
+2024-11-20 21:56:15,721 - handlers.download_handler - ERROR - Error downloading video: [WinError 32] The process cannot access the file because it is being used by another process: 'downloads\\a-mZR03AFLI_hqdefault.jpg'
+2024-11-20 21:57:21,861 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 21:57:52,138 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\K6n9HNGeAGw_hqdefault.jpg
+2024-11-20 21:58:01,201 - handlers.download_handler - ERROR - Error downloading video: Timed out
+2024-11-20 22:03:12,328 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-11-20 22:04:36,916 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\K6n9HNGeAGw_hqdefault.jpg
+2024-11-20 22:04:57,978 - handlers.download_handler - ERROR - Error downloading video: Timed out

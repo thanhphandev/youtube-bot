@@ -16,6 +16,7 @@ groq = "^0.12.0"
 pytube = "^15.0.0"
 yt-dlp = "^2024.11.18"
 google-api-python-client = "^2.153.0"
+aiofiles = "^24.1.0"
 
 
 [build-system]

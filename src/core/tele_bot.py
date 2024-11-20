@@ -1,11 +1,11 @@
-from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
+from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes, CallbackQueryHandler
 from telegram import Update
 from configs.config import Config
 from utils.logger import setup_logger
 from handlers.help_handler import help_command
 from handlers.summary_handler import summary_command
-from handlers.download_handler import download_command
-from handlers import download_handler
+from handlers.thumbnail_handler import thumbnail_command
+from handlers.download_handler import sellected_video_quality, download_command
 from handlers.analyze_handler import analyze_command
 
 logger = setup_logger(__name__)
@@ -22,10 +22,11 @@ class TelegramBot:
         self.app.add_handler(CommandHandler('summary', summary_command))
         self.app.add_handler(CommandHandler('download', download_command))
         self.app.add_handler(CommandHandler('analyze', analyze_command))
+        self.app.add_handler(CommandHandler('thumbnail', thumbnail_command))
+        self.app.add_handler(CallbackQueryHandler(sellected_video_quality))
+
         self.app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, self._handle_message))
-        download_handler.register_handlers(self.app)
-
-
+        
     async def _start(self, update: Update, context: ContextTypes.DEFAULT_TYPE):    
         await update.message.reply_text(
             "Xin chào, tôi là Youtube AI Bot được tạo bởi Phan Văn Thành. Sử dụng /help để hiển thị các chức năng khả dụng."
