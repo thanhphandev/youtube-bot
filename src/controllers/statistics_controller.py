@@ -5,7 +5,7 @@ from services.analyze_video import get_video_statistics
 
 router = APIRouter()
 
-@router.post("/get-statistics", response_model=VideoStatisticsResponse)
+@router.post("/get-video-stats", response_model=VideoStatisticsResponse)
 def get_thumbnail(request: VideoRequest):
     try:
         
@@ -14,14 +14,19 @@ def get_thumbnail(request: VideoRequest):
         views = statistics['views']
         likes = statistics['likes']
         comments = statistics['comments']
+        upload_date = statistics['upload_date']
         score = statistics['score']
         
         return VideoStatisticsResponse(
-            title=title,
-            views=views,
-            likes=likes,
-            comments=comments,
-            score=score
+            url=request.video_url,
+            stats={
+                "title": title,
+                "views": views,
+                "likes": likes,
+                "comments": comments,
+                "upload_date": upload_date,
+                "score": score
+            }
         )
     
     except ValueError as ve:

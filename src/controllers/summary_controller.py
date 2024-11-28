@@ -8,7 +8,12 @@ router = APIRouter()
 async def video_summarization(request: VideoRequest):
     try:
         summary = summarize_video(request.video_url)
-        return VideoSummaryResponse(**summary)
+        title = summary['title']
+        content = summary['content']
+        return VideoSummaryResponse(
+            title=title,
+            content=content
+        )
     except ValueError as ve:
         raise HTTPException(status_code=400, detail=f"Invalid data: {str(ve)}")
     except Exception as e:

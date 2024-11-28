@@ -69,3 +69,58 @@
 2024-11-28 22:08:06,551 - services.analyze_video - INFO - Get static video successful
 2024-11-28 22:11:16,582 - services.get_thumbnail - INFO - Thumbnail URL: https://img.youtube.com/vi/a9Q9O5pWklY/sddefault.jpg
 2024-11-28 22:11:27,045 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:11:22,498 - utils.transcript_video - INFO - Extracting transcript for video ID: a9Q9O5pWklY
+2024-11-28 23:11:22,500 - utils.transcript_video - INFO - Trying language: vi
+2024-11-28 23:11:25,422 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:11:37,791 - services.summary_video - INFO - Video summarized successfully
+2024-11-28 23:18:45,187 - utils.transcript_video - INFO - Extracting transcript for video ID: a9Q9O5pWklY
+2024-11-28 23:18:45,190 - utils.transcript_video - INFO - Trying language: vi
+2024-11-28 23:18:48,758 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:19:01,080 - services.summary_video - INFO - Video summarized successfully
+2024-11-28 23:19:45,788 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:25:59,487 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:32:22,335 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/a9Q9O5pWklY?si=R36voVGkHzBhSCij
+2024-11-28 23:38:38,270 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:42:43,606 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:42:48,725 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/a9Q9O5pWklY?si=R36voVGkHzBhSCij
+2024-11-28 23:48:07,710 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:48:12,341 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/a9Q9O5pWklY?si=R36voVGkHzBhSCij
+2024-11-28 23:50:42,174 - utils.transcript_video - INFO - Extracting transcript for video ID: a9Q9O5pWklY
+2024-11-28 23:50:42,177 - utils.transcript_video - INFO - Trying language: vi
+2024-11-28 23:50:44,852 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:50:56,909 - services.summary_video - INFO - Video summarized successfully
+2024-11-28 23:50:57,218 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:53:45,443 - utils.transcript_video - INFO - Extracting transcript for video ID: a9Q9O5pWklY
+2024-11-28 23:53:45,445 - utils.transcript_video - INFO - Trying language: vi
+2024-11-28 23:53:46,431 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:53:58,153 - services.summary_video - INFO - Video summarized successfully
+2024-11-28 23:54:26,011 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/a9Q9O5pWklY?si=R36voVGkHzBhSCij
+2024-11-28 23:54:47,840 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:55:09,139 - utils.transcript_video - INFO - Extracting transcript for video ID: a9Q9O5pWklY
+2024-11-28 23:55:09,141 - utils.transcript_video - INFO - Trying language: vi
+2024-11-28 23:55:10,134 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:55:22,502 - services.summary_video - INFO - Video summarized successfully
+2024-11-28 23:55:22,640 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:56:55,213 - utils.transcript_video - INFO - Extracting transcript for video ID: a9Q9O5pWklY
+2024-11-28 23:56:55,215 - utils.transcript_video - INFO - Trying language: vi
+2024-11-28 23:56:56,125 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:57:09,054 - services.summary_video - INFO - Video summarized successfully
+2024-11-28 23:57:09,237 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:59:02,024 - utils.transcript_video - INFO - Extracting transcript for video ID: a9Q9O5pWklY
+2024-11-28 23:59:02,026 - utils.transcript_video - INFO - Trying language: vi
+2024-11-28 23:59:03,030 - services.analyze_video - INFO - Get static video successful
+2024-11-28 23:59:15,176 - services.summary_video - INFO - Video summarized successfully
+2024-11-28 23:59:15,258 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/a9Q9O5pWklY?si=R36voVGkHzBhSCij
+2024-11-28 23:59:15,301 - services.analyze_video - INFO - Get static video successful
+2024-11-29 00:07:53,759 - utils.transcript_video - INFO - Extracting transcript for video ID: 6WoLTcHRRuU
+2024-11-29 00:07:53,760 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/6WoLTcHRRuU?si=Oj7p0zJT6LdKgTdI
+2024-11-29 00:07:53,761 - utils.transcript_video - INFO - Trying language: vi
+2024-11-29 00:07:56,769 - services.analyze_video - INFO - Get static video successful
+2024-11-29 00:08:09,675 - services.summary_video - INFO - Video summarized successfully
+2024-11-29 00:08:09,793 - services.analyze_video - INFO - Get static video successful
+2024-11-29 00:08:18,494 - utils.transcript_video - INFO - Extracting transcript for video ID: 6WoLTcHRRuU
+2024-11-29 00:08:18,496 - utils.transcript_video - INFO - Trying language: vi
+2024-11-29 00:08:19,459 - services.analyze_video - INFO - Get static video successful
+2024-11-29 00:08:33,266 - services.summary_video - INFO - Video summarized successfully
+2024-11-29 00:08:33,292 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/6WoLTcHRRuU?si=Oj7p0zJT6LdKgTdI
+2024-11-29 00:08:33,383 - services.analyze_video - INFO - Get static video successful

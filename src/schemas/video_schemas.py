@@ -1,24 +1,34 @@
 from pydantic import BaseModel
-from enum import Enum
+from typing import Dict
 
 class VideoRequest(BaseModel):
     video_url: str
 
 class ThubmailRequest(BaseModel):
     video_url: str
-    resolution: str
 
 class VideoSummaryResponse(BaseModel):
+    title: str
     content: str
 
 class VideoThumbnailResponse(BaseModel):
-    thumbnail_url: str
+    video_url: str
+    thumbnails: Dict[str, str]
 
-class VideoStatisticsResponse(BaseModel):
+class VideoStatistics(BaseModel):
     title: str
     views: int
     likes: int
     comments: int
     score: float
+    upload_date: str
+
+class VideoStatisticsResponse(BaseModel):
+    url: str
+    stats: VideoStatistics
+
+    
+
+
     
 
