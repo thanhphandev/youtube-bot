@@ -3,9 +3,7 @@ from telegram.constants import ChatAction
 from telegram.ext import ContextTypes
 from common.validator import Validator
 from services.summary_video import summarize_video
-from utils.logger import setup_logger
 
-logger = setup_logger(__name__)
 
 async def summary_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         if not context.args:
@@ -20,8 +18,7 @@ async def summary_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         try:
             await update.message.chat.send_action(ChatAction.TYPING)
             summary = summarize_video(video_url)
-            logger.info(f"Video summarized successfully")
-            await update.message.reply_text(summary)
+            content = summary["content"]
+            await update.message.reply_text(f"📝 Nội dung: {content}")
         except Exception as e:
-            logger.error(f"Error when summary content: {e}")
             await update.message.reply_text("Đã có vấn đề xảy ra! vui lòng thử lại.")

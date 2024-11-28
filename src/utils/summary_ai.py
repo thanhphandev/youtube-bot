@@ -14,7 +14,7 @@ def summarize_video_content(content: str) -> str:
     prompt = f"Đây là nội dung video:\n\n{content}\n\n"
 
     try:
-        # Gửi yêu cầu tới API OpenAI để tóm tắt nội dung
+        
         response = client.chat.completions.create(
             messages=[
                 {"role": "system", "content": ("Bạn là một nhà tóm tắt nội dung video. "
@@ -28,8 +28,6 @@ def summarize_video_content(content: str) -> str:
             max_tokens=1024,
             model=model_name,
         )
-        
-        logger.info(f"AI summary video successful with {len(response)} characters")
         summary = response.choices[0].message.content
         return summary
     

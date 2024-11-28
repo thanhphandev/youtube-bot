@@ -40,7 +40,8 @@ async def analyze_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         likes = statistics_video["like_count"]
         comments = statistics_video["comment_count"]
         upload_date = statistics_video["upload_date"]
-        score = calculate_quality_score(views, likes, comments, upload_date)
+        score = statistics_video["score"]
+        
         await update.message.reply_text(
             f"📹 Tiêu đề: {title}\n"
             f"📝 Mô tả: {description}\n"

@@ -1,18 +1,12 @@
-import signal
-import sys
-from core.tele_bot import TelegramBot
-from utils.logger import setup_logger
+from fastapi import FastAPI
+from controllers.summary_controller import router as video_router
+from controllers.thumbnail_controller import router as thumbnail_router
+from controllers.statistics_controller import router as statistics_router
 
-logger = setup_logger(__name__)
+app = FastAPI()
 
-def handle_exit(signum, frame):
-    print("\nExiting program...")
-    sys.exit(0)
+app.include_router(video_router, prefix="/api/v1", tags=["Video"])
+app.include_router(thumbnail_router, prefix="/api/v1", tags=["Video"])
+app.include_router(statistics_router, prefix="/api/v1", tags=["Video"])
 
-def main():
-    signal.signal(signal.SIGINT, handle_exit)
-    bot = TelegramBot()
-    bot.run()
 
-if __name__ == '__main__':
-    main()

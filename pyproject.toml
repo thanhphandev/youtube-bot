@@ -17,6 +17,9 @@ pytube = "^15.0.0"
 yt-dlp = "^2024.11.18"
 google-api-python-client = "^2.153.0"
 aiofiles = "^24.1.0"
+uvicorn = {extras = ["standard"], version = "^0.32.1"}
+pydantic = "^2.10.2"
+fastapi = "^0.115.5"
 
 
 [build-system]
