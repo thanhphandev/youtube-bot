@@ -195,3 +195,21 @@
 2024-12-03 16:40:57,216 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\yyc6L-8fFdU_hqdefault.jpg
 2024-12-03 16:41:10,207 - handlers.download_handler - INFO - Video sent successfully: https://youtu.be/yyc6L-8fFdU?si=vxqEi6eP7QNEN3uY
 2024-12-03 16:42:59,974 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\yyc6L-8fFdU_hqdefault.jpg
+2024-12-03 16:58:06,780 - services.analyze_video - INFO - Get static video successful
+2024-12-03 16:58:12,269 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/a9Q9O5pWklY?si=R36voVGkHzBhSCij
+2024-12-03 16:58:17,560 - utils.transcript_video - INFO - Extracting transcript for video ID: a9Q9O5pWklY
+2024-12-03 16:58:17,563 - utils.transcript_video - INFO - Trying language: vi
+2024-12-03 16:58:18,942 - services.analyze_video - INFO - Get static video successful
+2024-12-03 16:58:20,815 - services.summary_video - INFO - Video summarized successfully
+2024-12-03 17:00:37,929 - utils.transcript_video - INFO - Extracting transcript for video ID: MuNNArVYrXE
+2024-12-03 17:00:37,932 - utils.transcript_video - INFO - Trying language: vi
+2024-12-03 17:00:42,379 - services.analyze_video - INFO - Get static video successful
+2024-12-03 17:00:44,218 - services.summary_video - INFO - Video summarized successfully
+2024-12-03 17:00:44,569 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/MuNNArVYrXE?si=HRHH_2zeVQHRduwP
+2024-12-03 17:00:44,800 - services.analyze_video - INFO - Get static video successful
+2024-12-03 17:03:48,489 - utils.transcript_video - INFO - Extracting transcript for video ID: MuNNArVYrXE
+2024-12-03 17:03:48,491 - utils.transcript_video - INFO - Trying language: vi
+2024-12-03 17:03:49,961 - services.analyze_video - INFO - Get static video successful
+2024-12-03 17:03:51,649 - services.summary_video - INFO - Video summarized successfully
+2024-12-03 17:03:51,686 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/MuNNArVYrXE?si=HRHH_2zeVQHRduwP
+2024-12-03 17:03:51,777 - services.analyze_video - INFO - Get static video successful

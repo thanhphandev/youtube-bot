@@ -8,7 +8,8 @@ app = FastAPI()
 
 # CORS setup
 origins = [
-    "http://localhost:5173"
+    "http://localhost:5173",
+    "https://youtube-tool-web.vercel.app"
 ]
 
 app.add_middleware(
