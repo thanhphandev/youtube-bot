@@ -20,6 +20,7 @@ def summarize_video_content(content: str) -> str:
                 {"role": "system", "content": ("Bạn là một nhà tóm tắt nội dung video. "
                                                 "Hãy tóm tắt nội dung video sau đây thành một bản tóm tắt chính xác và đầy đủ, toàn vẹn nội dung "
                                                 "Luôn luôn phản hồi bằng tiếng Việt không có ngoại lệ."
+                                                "no yapping, just summarizing"
                                                 )},
                 {"role": "user", "content": prompt},
             ],

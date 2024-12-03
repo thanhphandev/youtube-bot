@@ -1,3 +1,4 @@
+import os
 from common.validator import Validator
 from telegram.constants import ChatAction
 from utils.get_id_video import get_id_video
@@ -30,6 +31,7 @@ async def thumbnail_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 photo=thumbnail,
                 caption=f"Đây là thumbnail của video {video_url}"
             )
+            os.remove(thumbnail_url)
 
     except Exception as e:
         logger.error(f"Error when get thumbnail: {e}")

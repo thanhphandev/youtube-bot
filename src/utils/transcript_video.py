@@ -44,7 +44,7 @@ class YouTubeTranscriptExtractor:
                         }
                     }
                 except NoTranscriptFound:
-                    logger.info(f"No transcript found for language: {lang_code}")
+                    logger.warning(f"No transcript found for language: {lang_code}")
                     continue
 
             # No transcripts found in preferred languages

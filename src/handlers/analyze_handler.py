@@ -18,7 +18,6 @@ async def analyze_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     
     video_url = context.args[0]
-    video_id = get_id_video(video_url)
 
     if(not Validator.is_valid_youtube_url(video_url)):
         await update.message.reply_text("URL không hợp lệ! Hãy gửi URL của video YouTube.")
@@ -26,19 +25,18 @@ async def analyze_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     try:
     
         await update.message.chat.send_action(action=ChatAction.TYPING)
-        logger.info(f"Analyzing video: {video_id}")
-        statistics_video = get_video_statistics(video_id)
+        logger.info(f"Analyzing video: {video_url}")
+        statistics_video = get_video_statistics(video_url)
         
         if not statistics_video:
             await update.message.reply_text("Không thể lấy thông tin video.")
             return
-        
         title = statistics_video["title"]
         description = statistics_video["description"]
         tags = statistics_video["tags"]
-        views = statistics_video["view_count"]
-        likes = statistics_video["like_count"]
-        comments = statistics_video["comment_count"]
+        views = statistics_video["views"]
+        likes = statistics_video["likes"]
+        comments = statistics_video["comments"]
         upload_date = statistics_video["upload_date"]
         score = statistics_video["score"]
         

@@ -11,7 +11,7 @@ def get_youtube_thumbnail(video_id: str, resolution: str = "maxresdefault") -> s
     try:
         os.makedirs(TEMP_DIR, exist_ok=True)
         thumbnail_url = f"https://img.youtube.com/vi/{video_id}/{resolution}.jpg"
-        thumbnail_path = os.path.join(TEMP_DIR, f"{video_id}_hqdefault.jpg")
+        thumbnail_path = os.path.join(TEMP_DIR, f"{video_id}_{resolution}.jpg")
 
         response = requests.get(thumbnail_url, stream=True)
         if response.status_code == 200:

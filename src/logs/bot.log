@@ -168,3 +168,30 @@
 2024-11-29 11:47:50,486 - services.summary_video - INFO - Video summarized successfully
 2024-11-29 11:47:50,536 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/uugQ-OKaPaA?si=ZTzxQShF8pOGAPQ0
 2024-11-29 11:47:50,648 - services.analyze_video - INFO - Get static video successful
+2024-12-03 16:28:59,766 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-12-03 16:29:50,117 - handlers.analyze_handler - INFO - Analyzing video: KiNyvT02HJM
+2024-12-03 16:29:50,118 - handlers.analyze_handler - ERROR - Error when analyze video: 'NoneType' object has no attribute 'strip'
+2024-12-03 16:32:04,728 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-12-03 16:34:30,714 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-12-03 16:34:58,955 - handlers.analyze_handler - INFO - Analyzing video: https://youtu.be/KiNyvT02HJM?si=yMcikaJTU_OqSOCd
+2024-12-03 16:35:01,222 - services.analyze_video - INFO - Get static video successful
+2024-12-03 16:35:01,224 - handlers.analyze_handler - ERROR - Error when analyze video: 'view_count'
+2024-12-03 16:36:13,039 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-12-03 16:36:26,746 - handlers.analyze_handler - INFO - Analyzing video: https://youtu.be/KiNyvT02HJM?si=yMcikaJTU_OqSOCd
+2024-12-03 16:36:28,830 - services.analyze_video - INFO - Get static video successful
+2024-12-03 16:37:00,281 - utils.transcript_video - INFO - Extracting transcript for video ID: KiNyvT02HJM
+2024-12-03 16:37:00,283 - utils.transcript_video - INFO - Trying language: vi
+2024-12-03 16:37:01,124 - utils.transcript_video - INFO - No transcript found for language: vi
+2024-12-03 16:37:01,126 - utils.transcript_video - INFO - Trying language: en
+2024-12-03 16:37:02,726 - services.analyze_video - INFO - Get static video successful
+2024-12-03 16:37:05,210 - services.summary_video - INFO - Video summarized successfully
+2024-12-03 16:38:59,048 - core.tele_bot - INFO - Bot is starting...Press Ctrl + C to stop.
+2024-12-03 16:39:02,452 - utils.transcript_video - INFO - Extracting transcript for video ID: KiNyvT02HJM
+2024-12-03 16:39:02,454 - utils.transcript_video - INFO - Trying language: vi
+2024-12-03 16:39:03,400 - utils.transcript_video - WARNING - No transcript found for language: vi
+2024-12-03 16:39:03,403 - utils.transcript_video - INFO - Trying language: en
+2024-12-03 16:39:06,861 - services.analyze_video - INFO - Get static video successful
+2024-12-03 16:39:08,604 - services.summary_video - INFO - Video summarized successfully
+2024-12-03 16:40:57,216 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\yyc6L-8fFdU_hqdefault.jpg
+2024-12-03 16:41:10,207 - handlers.download_handler - INFO - Video sent successfully: https://youtu.be/yyc6L-8fFdU?si=vxqEi6eP7QNEN3uY
+2024-12-03 16:42:59,974 - utils.get_thumbnail - INFO - Thumbnail downloaded: downloads\yyc6L-8fFdU_hqdefault.jpg
