@@ -1,6 +1,7 @@
 from fastapi import APIRouter, HTTPException
 from schemas.video_schemas import VideoRequest, VideoStatisticsResponse
 from services.analyze_video import get_video_statistics
+from common.validator import Validator
 
 
 router = APIRouter()
@@ -8,7 +9,10 @@ router = APIRouter()
 @router.post("/get-video-stats", response_model=VideoStatisticsResponse)
 def get_thumbnail(request: VideoRequest):
     try:
-        
+        if not request.video_url:
+            raise ValueError("Required video URL")
+        if not Validator.is_valid_youtube_url(request.video_url):
+            raise ValueError("Invalid YouTube video URL")
         statistics = get_video_statistics(request.video_url)
         title = statistics['title']
         views = statistics['views']

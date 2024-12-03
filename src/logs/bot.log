@@ -124,3 +124,47 @@
 2024-11-29 00:08:33,266 - services.summary_video - INFO - Video summarized successfully
 2024-11-29 00:08:33,292 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/6WoLTcHRRuU?si=Oj7p0zJT6LdKgTdI
 2024-11-29 00:08:33,383 - services.analyze_video - INFO - Get static video successful
+2024-11-29 11:22:29,571 - utils.transcript_video - INFO - Extracting transcript for video ID: Sg1Ddo1T2KM
+2024-11-29 11:22:29,574 - utils.transcript_video - INFO - Trying language: vi
+2024-11-29 11:22:32,771 - services.analyze_video - INFO - Get static video successful
+2024-11-29 11:22:45,368 - services.summary_video - INFO - Video summarized successfully
+2024-11-29 11:22:47,393 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/Sg1Ddo1T2KM?si=tVOIVvdl_-8NDap0
+2024-11-29 11:22:47,506 - services.analyze_video - INFO - Get static video successful
+2024-11-29 11:26:05,484 - utils.transcript_video - INFO - Extracting transcript for video ID: Sg1Ddo1T2KM
+2024-11-29 11:26:05,487 - utils.transcript_video - INFO - Trying language: vi
+2024-11-29 11:26:06,545 - services.analyze_video - INFO - Get static video successful
+2024-11-29 11:26:18,366 - services.summary_video - INFO - Video summarized successfully
+2024-11-29 11:26:18,383 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/Sg1Ddo1T2KM?si=tVOIVvdl_-8NDap0
+2024-11-29 11:26:18,501 - services.analyze_video - INFO - Get static video successful
+2024-11-29 11:26:25,216 - utils.transcript_video - INFO - Extracting transcript for video ID: Sg1Ddo1T2KM
+2024-11-29 11:26:25,218 - utils.transcript_video - INFO - Trying language: vi
+2024-11-29 11:26:26,168 - services.analyze_video - INFO - Get static video successful
+2024-11-29 11:26:38,462 - services.summary_video - INFO - Video summarized successfully
+2024-11-29 11:26:38,482 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/Sg1Ddo1T2KM?si=tVOIVvdl_-8NDap0
+2024-11-29 11:26:38,601 - services.analyze_video - INFO - Get static video successful
+2024-11-29 11:28:03,507 - utils.transcript_video - INFO - Extracting transcript for video ID: Sg1Ddo1T2KM
+2024-11-29 11:28:03,510 - utils.transcript_video - INFO - Trying language: vi
+2024-11-29 11:28:04,522 - services.analyze_video - INFO - Get static video successful
+2024-11-29 11:28:16,560 - services.summary_video - INFO - Video summarized successfully
+2024-11-29 11:28:16,578 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/Sg1Ddo1T2KM?si=tVOIVvdl_-8NDap0
+2024-11-29 11:28:16,709 - services.analyze_video - INFO - Get static video successful
+2024-11-29 11:30:20,744 - utils.transcript_video - INFO - Extracting transcript for video ID: kJQP7kiw5Fk
+2024-11-29 11:30:20,746 - utils.transcript_video - INFO - Trying language: vi
+2024-11-29 11:30:21,811 - utils.transcript_video - INFO - No transcript found for language: vi
+2024-11-29 11:30:21,813 - utils.transcript_video - INFO - Trying language: en
+2024-11-29 11:30:23,151 - services.analyze_video - INFO - Get static video successful
+2024-11-29 11:30:34,409 - services.summary_video - INFO - Video summarized successfully
+2024-11-29 11:30:34,421 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/kJQP7kiw5Fk?si=O0O4v-yr6egWt4s1
+2024-11-29 11:30:34,530 - services.analyze_video - INFO - Get static video successful
+2024-11-29 11:39:05,628 - utils.transcript_video - INFO - Extracting transcript for video ID: kJQP7kiw5Fk
+2024-11-29 11:39:05,631 - utils.transcript_video - INFO - Trying language: vi
+2024-11-29 11:39:06,691 - utils.transcript_video - INFO - No transcript found for language: vi
+2024-11-29 11:39:06,694 - utils.transcript_video - INFO - Trying language: en
+2024-11-29 11:39:09,781 - services.summary_video - ERROR - An error occurred during summarization: unsupported operand type(s) for /: 'str' and 'int'
+2024-11-29 11:39:09,837 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/kJQP7kiw5Fk?si=O0O4v-yr6egWt4s1
+2024-11-29 11:47:35,120 - utils.transcript_video - INFO - Extracting transcript for video ID: uugQ-OKaPaA
+2024-11-29 11:47:35,121 - utils.transcript_video - INFO - Trying language: vi
+2024-11-29 11:47:38,286 - services.analyze_video - INFO - Get static video successful
+2024-11-29 11:47:50,486 - services.summary_video - INFO - Video summarized successfully
+2024-11-29 11:47:50,536 - services.get_thumbnail - INFO - Extracted thumbnail successful https://youtu.be/uugQ-OKaPaA?si=ZTzxQShF8pOGAPQ0
+2024-11-29 11:47:50,648 - services.analyze_video - INFO - Get static video successful
